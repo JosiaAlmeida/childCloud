@@ -1,0 +1,23 @@
+.pessoas-dizemCard {
+  padding: 10%;
+  background: rgb(250, 250, 250);
+}
+
+.pessoas-dizemCard .pessoas-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.pessoas-dizemCard .pessoas-card .card {
+  width: 300px;
+  margin-inline: 10px;
+}
+
+.pessoas-dizemCard .pessoas-card .card img {
+  border-radius: 100%;
+  width: 230px;
+  height: 230px;
+  box-shadow: 0 0 20px 0 gray;
+}

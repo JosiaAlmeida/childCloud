@@ -1,0 +1,23 @@
+.card-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: start;
+}
+
+.card-image:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+.card-image .card-image-text-container {
+  padding: 7%;
+}
+
+.card-image .card-image-text-container h3 {
+  font-size: 35px;
+}
+
+
+.card-image img {
+  width: 50%;
+}

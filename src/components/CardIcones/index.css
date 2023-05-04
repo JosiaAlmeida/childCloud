@@ -1,0 +1,14 @@
+.cardIcones {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 400px;
+  margin-inline: auto;
+}
+
+.cardIcones .icon {
+  height: 90px;
+
+}

@@ -1,5 +1,16 @@
 .App {
   text-align: center;
+  overflow-x: hidden;
+}
+
+.container {
+  padding: 20px 25px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .App-logo {
@@ -32,6 +43,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
